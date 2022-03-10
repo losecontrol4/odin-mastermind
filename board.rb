@@ -70,6 +70,7 @@ class Board
     puts 'Accepted formats can be like "R O Y B" or "royb" -uppercase/lowercase doesn\'t matter.'
     puts "∆ means that a color put was in the correct place. • means that a color you used is used in the code, but it is in the wrong place.\n- refers to one of the colors you used is not used."
     puts 'The order that these appear do not have any correlation with the order of the colors.'
+    puts "Possible colors are (Red, Blue, Yellow, Purple, Green, and Orange)\nValid formats are: r o y b or royb.\nCase doesn't matter"
     puts "#{@player} will now try to break the code!"
     puts '-------------------------------------------------------------------------------------------------------------------------'
   end
